@@ -69,7 +69,7 @@ other's files, and each one's context stays focused on one job.
 If you juggle several projects, run one more agent at the root of the pod as a **manager**. It
 doesn't do project work. It reads each project's `STATUS.md`, tells you what's waiting on you,
 routes your requests to the right project session, and keeps the root files (`INDEX.md`,
-`memory/`, `notes/workflows/`) tidy. The sibling repo **afk-studio** shows how to run that
+`memory/`, `notes/workflows/`) tidy. The sibling repo **bebop** shows how to run that
 manager from your phone.
 
 ```mermaid

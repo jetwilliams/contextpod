@@ -39,6 +39,13 @@ flowchart TB
     SENS -. "only with --include-sensitive" .-> LOCAL["Local model<br/>(ollama)"]
 ```
 
+## Set it up with one prompt
+
+Clone this repo, start your coding agent inside the folder, and paste the prompt in
+[SETUP_PROMPT.md](SETUP_PROMPT.md). It checks for notes you already have (a notes folder, an Obsidian vault,
+an existing memory folder), runs a short quiz about how you live and work, shows the folder plan, then builds a
+pod shaped around you, with only the areas you chose. Your answers are saved, so you can run it again to grow the pod.
+
 ## Quick start
 
 **1. Copy the template** somewhere private (not inside this repo), and make it a git repo so
